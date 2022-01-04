@@ -79,6 +79,13 @@ body{
     border-radius: 2px;
     color: #ccc;
 }
+.eye{
+    position: absolute;
+margin: -43px 23%;
+}
+#hide2{
+    display: none;
+}
 .right-side button {
     width: 85%;
     height: 48px;
