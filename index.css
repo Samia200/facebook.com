@@ -77,11 +77,11 @@ body{
     border-radius: 6px;
     transition: border-width 0.2s ease;
     border-radius: 2px;
-    color: #ccc;
+    color: #000;
 }
 .eye{
-    position: absolute;
-margin: -43px 23%;
+    position: absolute; 
+     margin: -43px 23%;
 }
 #hide2{
     display: none;
