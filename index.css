@@ -68,8 +68,9 @@ body{
     width: 396px;
 }
 .eye{
-    position: absolute;
-margin: -43px 23%;
+       position: absolute;
+    margin: -43px 23%;
+
 }
 #hide2{
     display: none;
