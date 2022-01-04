@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+
+    margin: 0;
+}
+body{
+    background:#f0f2f5 ;
+    direction: ltr;
+}
+.container{
+    height: 100%;
+    margin-left: 60px;
+    margin-top: 72px;
+    margin-bottom: 112px ;
+}
+.float-child{
+   float: left;
+}
+.left-side .right-side{
+    box-sizing: border-box;
+}
+.left-position{
+    margin-left:88px ;
+    margin-right: 88px;
+    padding-top: 22px ;
+    padding-bottom: 22px;
+}
+.fb-img{
+
+    margin: 112px 0 -14px;
+}
+
+.left-side img{
+    height: 106px;
+
+
+}
+.parg-h2{
+    padding-bottom: 20px ;
+}
+.left-side h2{
+     font-size: 28px;
+     font-weight: normal;
+     line-height: 32px;
+     margin-left: 25px;
+
+}
+.right-side{
+    display: inline-block;
+    margin-left: 140px;
+}
+.containte{
+    z-index: 2;
+    height: 459px;
+    width: 350px;
+}
+.login-card{
+    
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+}
+.eye{
+    position: absolute;
+margin: -43px 23%;
+}
+#hide2{
+    display: none;
+}
+.right-side input{
+    margin-left:25px ;
+    display: block;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    transition: border-width 0.2s ease;
+    border-radius: 2px;
+    color: rgb(0, 0, 0);
+}
+.right-side button {
+    width: 85%;
+    height: 48px;
+    padding: 10px 10px;
+    font-size: 20px;
+    margin-left: 32px ;
+    background: #1877f2;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+    left: 0;
+    bottom: 0;
+    max-height: 60px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.forget-link{
+    margin-top: 16px;
+    text-align: center;
+    align-items: center;
+}
+.forget-link a{
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: inherit;
+    text-decoration: none;
+    color: #1877f2;
+   
+}
+
+.line{
+    margin: 20px 16px;
+    width: 89%;
+    border-bottom: 1px solid #dadde1;
+}
+.sing-up{
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+    
+}
+.sing-up a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 6px;
+    line-height: 48px;
+    padding: 12px 16px;
+    background-color: #42b72a;
+}
+.esf{
+    text-align: center;
+    color: #000;
+    margin-top: 28px;
+    margin-left: 10px;
+}
+.esf p{
+    font-size: 14px;
+}
+.esf a{
+    color: #000;
+    text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
