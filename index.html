@@ -25,7 +25,11 @@
           <div class="containte">
           <div class="login-card">
               <input type="text" placeholder="Email or phone number">
-              <input type="password" placeholder="password">
+              <input type="password" placeholder="password" id="myinput">
+              <span class="eye" onclick="myFunction()">
+                <i id="hide1" class="far fa-eye"></i>
+                <i id="hide2" class="far fa-eye-slash"></i>
+                 </span>
               <button>Log in</button>
               <div class="forget-link"><a href="#">forget password?</a></div>
               <div class="line"></div>
@@ -37,5 +41,25 @@
           </div>
         </div>
     </div>
+    <script>
+      function myFunction(){
+        var x = document.getElementById("myinput");
+        var k = document.getElementById("hide1");
+        var s = document.getElementById("hide2");
+       
+        if(x.type === 'password'){
+          x.type = "text";
+          k.style.display = "block";
+          s.style.display = "none";
+
+        }else{
+          x.type = "password";
+          k.style.display = "none";
+          s.style.display = "block";
+
+        }
+
+      }
+    </script>
 </body>
 </html>
